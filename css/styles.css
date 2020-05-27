@@ -1,0 +1,87 @@
+/*
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+*{
+    margin:0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body
+{
+    text-align: center;
+    background-image: url("../images/bg-pattern-desktop.svg");
+}
+
+.left-side{
+    position: absolute;
+    left:0;
+}
+#logo-pic{
+    position: absolute;
+    left:100px;
+    padding:40px;
+}
+.main-part{
+    padding: 40px;
+    position: relative;
+    top:200px;
+    left:100px;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 75px;
+    text-align: justify;
+}
+#soon{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color:rgb(238,188,191);
+}
+#main-text{
+    margin:25px 0;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color:rgb(206,176,174);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.mail{
+    width:300px;
+    padding:15px;
+    border-radius:20px;
+    border-color: rgb(255,246,247);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    border-right: none;
+}
+input:focus{
+    width:300px;
+    padding:15px;
+    border-radius:20px;
+    border-color: rgb(255,246,247);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    border-right: none;
+}
+.btn{
+    background-color: rgb(246,170,170);
+    border:none;
+    padding:15px 10px;
+    border-radius: 20px;
+    width: 75px;
+    margin-left:0;
+    position: relative;
+    left:-50px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.2);
+    color:#fff;
+}
+.right-side{
+    position: fixed;
+    right:0;
+    
+}

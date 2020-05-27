@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Base Apparel coming soon page</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  We're coming soon
+  <div class="left-side">
+    <div id="logo-pic">
+      <img id="logo" src="images/logo.svg" alt="logo-base-apparel" srcset="">
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    </div>
+    <div class="main-part">
+    <h1><span id="soon">We're</span><br> coming<br> soon</h1>
 
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+      <p id="main-text">Hello fellow shoppers! We're currently building our new<br> fashion store.
+        Add your email below to stay up-to-date with<br> announcements and our launch deals.</p>
+
+      <input class="mail" type="email" onfocus="clickMeBaby(this)" placeholder="Email Address">
+      <button class="btn" type="submit">></button>
+    </div>
+  </div>
+
+  <div class="right-side">
+    <img src="images/slikica.png" alt="pretty-woman" srcset="">
+  </div>
+
 </body>
+<script>
+  //sadly this doesn't work
+  function clickMeBaby(x)
+{
+    x.style.width="300px";
+    x.style.padding="15px";
+    x.style.borderRadius="20px";
+    x.style.borderColor="rgb(255,246,247)";
+    x.style.fontFamily="Josefin Sans";
+    x.style.fontWeight="300";
+    x.style.borderRight="none";
+}
+</script>
 </html>
